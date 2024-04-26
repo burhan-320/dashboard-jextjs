@@ -15,7 +15,7 @@ const DashboardLayoutWrapper = ({ children }) => {
 
     setTimeout(() => {
       setShowDashboard(true);
-      // toast.success("Access granted", { id: toastID });
+      toast.success("Access granted", { id: toastID });
     }, 2000);
   };
 
