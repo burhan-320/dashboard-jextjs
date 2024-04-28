@@ -180,6 +180,7 @@ export default function Header() {
             {projectName}
           </Typography>
 
+<h1></h1>
           <Box sx={{ flexGrow: 1 }} />
           <Box sx={{ display: { xs: "none", md: "flex" } }}>
             <Search sx={{ ml: 10 }}>
